@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    <img className="navbar-logo" src="/Sansai Sushi Logo.svg" alt="Sansai Sushi" width="50" height="24" />
+                    <img className="navbar-logo" src="../public/Sansai Sushi Logo.svg" alt="Sansai Sushi" width="50" height="24" />
                 </a>
 
                 <button
@@ -23,11 +23,11 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link active" href="#">Home</a>
-                        <a className="nav-link" href="#">Menu</a>
-                        <a className="nav-link" href="#">Catering</a>
-                        <a className="nav-link" href="#">Sourcing</a>
-                        <a className="nav-link disabled" aria-disabled="true">References</a>
+                        <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/">Home</NavLink>
+                        <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/Menu">Menu</NavLink>
+                        <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/Catering">Catering</NavLink>
+                        <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/Sourcing">Sourcing</NavLink>
+                        <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/Refrences">References</NavLink>
                     </div>
                 </div>
             </div>

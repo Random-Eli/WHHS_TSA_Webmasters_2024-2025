@@ -1,5 +1,24 @@
+/* this is the css for navbar styles */
+
+/* declaring css styles for custom font family*/
+@font-face {
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
 .navbar-nav .nav-link {
-    font-size: 1.5rem; 
+    font-size: 1.8rem;
+    font-family:'Okashi-Custom'; 
+    
   }
   
   .navbar-logo {
