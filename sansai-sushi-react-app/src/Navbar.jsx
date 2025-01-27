@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import './Navbar.css'
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-3">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary w-100 py-2">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img className="navbar-logo" src="/Sansai Sushi Logo.svg" alt="Sansai Sushi" width="50" height="24" />
@@ -23,7 +23,7 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                    <a className="nav-link active" href="#">Home</a>
+                        <a className="nav-link active" href="#">Home</a>
                         <a className="nav-link" href="#">Menu</a>
                         <a className="nav-link" href="#">Catering</a>
                         <a className="nav-link" href="#">Sourcing</a>
