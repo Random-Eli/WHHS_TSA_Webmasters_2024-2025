@@ -1,38 +1,31 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
-function App() {
-  const [count, setCount] = useState(0)
+import Navbar from './Navbar'
+import { Route, Routes } from 'react-router-dom';
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+import Home from './Pages/Home'
+import Menu from './Pages/Menu'
+import Sourcing from './Pages/Sourcing'
+import Catering from './Pages/Catering'
+import References from './Pages/References'
+
+function App() {
+  return(
+    <div className='App'>
+      <Navbar />
+      <Routes>
+        <Route path = "/" element={<Home />}/>
+        <Route path = "/Menu" element={<Menu />}/>
+        <Route path = "/Sourcing" element={<Sourcing />}/>
+        <Route path = "/Catering" element={<Catering />}/>
+        <Route path = "/References" element={<References />}/>
+      </Routes>
+    </div>
+  );
 }
 
 export default App
