@@ -5,27 +5,32 @@ import "./Menu.css";
 function Menu() {
   return (
     <>
+    <div>
       {/*classic rolls*/}
+      
       <h1 className="mainTitleBord">Classic Rolls</h1>
       <h1 className="mainTitle">クラシックロール</h1>
       <h5 className="itemName">Avocado Roll</h5>
       <p className="itemDesc">
-        Simple and creamy avocado spces wrapped in sushi rice and seaweed.
+        Simple and creamy avocado pieces wrapped in sushi rice and seaweed.
       </p>
       <h5 className="itemName">Kappa Maki (Cucumber Roll)</h5>
       <p className="itemDesc">Crisp cucumber wrapped in sushi rice and nori.</p>
       <h5 className="itemName">Vegetable Roll</h5>
       <p className="itemDesc">
-        A mix of vegetables pke cucumber, avocado, carrot, and lettuce.
+        A mix of vegetables like cucumber, avocado, carrot, and lettuce.
       </p>
       <h5 className="itemName">Asparagus Roll</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         Steamed or fresh asparagus with rice and seaweed.
       </p>
-      <h1 className="sectionBorder" />
 
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2018/08/03/08/33/food-3581341_960_720.jpg'/>   
+    </div>
+    
+    <div>
       {/*specialty rolls*/}
-      <h1 className="mainTitleBord">Specialty Rolls</h1>
+      <h1 className="mainTitleBord" >Specialty Rolls</h1>
       <h1 className="mainTitle">特製ロール</h1>
       <h5 className="itemName">Sweet Potato Roll</h5>
       <p className="itemDesc">
@@ -37,57 +42,64 @@ function Menu() {
       </p>
       <h5 className="itemName">Tofu Roll</h5>
       <p className="itemDesc">
-        Marinated or fried tofu paired with veggies pke cucumber and carrots.
+        Marinated or fried tofu paired with veggies like cucumber and carrots.
       </p>
       <h5 className="itemName">Pickled Vegetable Roll</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         Featuring pickled radish (takuan), cucumber, or other tangy veggies.
       </p>
       <h1 className="sectionBorder" />
+    </div>
+
+    <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/10/30/18/35/sushi-5699481_1280.jpg'/>
 
       {/*Creative Rolls */}
       <h1 className="mainTitleBord">Creative Rolls</h1>
       <h1 className="mainTitle">クリエイティブロール</h1>
       <h5 className="itemName">Rainbow Veggie Roll</h5>
       <p className="itemDesc">
-        Layers of different colorful vegetables pke bell peppers, avocado, and
+        Layers of different colorful vegetables like bell peppers, avocado, and
         beets on top.
       </p>
       <h5 className="itemName">Spicy Veggie Roll</h5>
       <p className="itemDesc">
-        Vegan spicy mayo with ingredients pke avocado, cucumber, and jalapeño.
+        Vegan spicy mayo with ingredients like avocado, cucumber, and jalapeño.
       </p>
       <h5 className="itemName">Mushroom Roll</h5>
       <p className="itemDesc">
-        Sauteed or marinated mushrooms (pke shiitake) for a savory flavor.
+        Sauteed or marinated mushrooms (like shiitake) for a savory flavor.
       </p>
       <h5 className="itemName">Edamame Hummus Roll</h5>
-      <p className="itemDescLast">
-        A unique twist using edamame hummus as the filpng.
+      <p className="itemDesc">
+        A unique twist using edamame hummus as the filling.
       </p>
       <h1 className="sectionBorder" />
 
-      {/*Nigri Options */}
-      <h1 className="mainTitleBord">NIGRI OPTIONS</h1>
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2017/07/26/11/48/sushi-2541472_1280.jpg' />
+
+      {/*Nigiri Options */}
+      <h1 className="mainTitleBord">NIGIRI OPTIONS</h1>
       <h1>ニグリのオプション</h1>
-      <h5 className="itemName">Avocado Nigri</h5>
-      <p className="itemDesc">Spces of avocado atop rice.</p>
-      <h5 className="itemName">Carrot Nigri</h5>
+      <h5 className="itemName">Avocado Nigiri</h5>
+      <p className="itemDesc">Pieces of avocado atop rice.</p>
+      <h5 className="itemName">Carrot Nigiri</h5>
       <p className="itemDesc">
         Thinly spced, marinated carrots (can be smoked for a “lox” flavor).
       </p>
-      <h5 className="itemName">Mushroom Nigri</h5>
-      <p className="itemDescLast">
-        Glazed mushrooms pke king oyster or shiitake.
+      <h5 className="itemName">Mushroom Nigiri</h5>
+      <p className="itemDesc">
+        Glazed mushrooms like king oyster or shiitake.
       </p>
       <h1 className="sectionBorder" />
+
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2014/10/16/17/23/sushi-491425_1280.jpg' />
 
       {/*Fusion Sushi */}
       <h1 className="mainTitleBord">FUSION SUSHI</h1>
       <h1 className="mainTitle">フュージョン寿司</h1>
       <h5 className="itemName">Fruit Sushi</h5>
       <p className="itemDesc">
-        Customizable combinations pke strawberry and avocado or kiwi and
+        Customizable combinations like strawberry and avocado or kiwi and
         cucumber for a sweet-savory balance.
       </p>
       <h5 className="itemName">Quinoa Rolls</h5>
@@ -95,20 +107,24 @@ function Menu() {
         Swap the sushi rice for quinoa for a twist on texture and nutrition.
       </p>
       <h5 className="itemName">Tempeh Rolls</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         Marinated tempeh for a hearty, protein-packed roll.
       </p>
       <h1 className="sectionBorder" />
+
+      <img className = 'image' src = 'https://img.freepik.com/free-photo/various-sushi-plate-table-detail_58702-667.jpg?t=st=1738190462~exp=1738194062~hmac=7d51a3a73841caa5dc69fb31b1def360e5c235dbe6eac73db7bde6ca0243ea0d&w=996' />
 
       {/* Tempura */}
       <h1 className="mainTitleBord">TEMPURA</h1>
       <h1 className="mainTitle">天ぷら</h1>
       <h5 className="itemName">Vegetable Tempura</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         Sweet potatoes, zucchini, eggplant, broccop, mushrooms, asparagus, or
-        green beans coated in a pght, crispy tempura batter.
+        green beans coated in a light, crispy tempura batter.
       </p>
       <h1 className="sectionBorder" />
+
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/01/07/11/42/tempura-4747379_1280.jpg' />
 
       {/* Soups */}
       <h1 className="mainTitleBord">SOUPS</h1>
@@ -118,10 +134,12 @@ function Menu() {
         Made with vegan miso paste, tofu, seaweed, and green onions.
       </p>
       <h5 className="itemName">Vegan Ramen Broth</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         pght soup with seaweed, mushrooms, bok choy, and noodles.
       </p>
       <h1 className="sectionBorder" />
+
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/07/25/09/53/soup-5436253_1280.jpg' />
 
       {/* Salads */}
       <h1 className="mainTitleBord">SALADS</h1>
@@ -136,24 +154,28 @@ function Menu() {
         sugar.
       </p>
       <h5 className="itemName">Avocado Salad</h5>
-      <p className="itemDescLast">
+      <p className="itemDesc">
         Mixed greens, spced avocado, and sesame dressing (ensure it's
         dairy-free).
       </p>
       <h1 className="sectionBorder" />
 
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2022/02/05/14/06/cucumbers-6994963_1280.jpg' />
+
       {/*Toppings and sauces*/}
       <h1 className="mainTitleBord">TOPPINGS & SAUCES</h1>
       <h1 className="mainTitle">トッピングとソース</h1>
-      <p className="itemDesc">Soy sauce or tamari (for gluten-free)</p>
-      <p className="itemDesc">
+      <p className="sauces">Soy sauce or tamari (for gluten-free)</p>
+      <p className="sauces">
         Vegan spicy mayo (made with vegan mayo and sriracha)
       </p>
-      <p className="itemDesc">Ponzu sauce</p>
-      <p className="itemDesc">Sesame seeds</p>
-      <p className="itemDesc">Scalpons</p>
-      <p className="itemDescLast">Wasabi and pickled ginger for garnish</p>
+      <p className="sauces">Ponzu sauce</p>
+      <p className="sauces">Sesame seeds</p>
+      <p className="sauces">Scalpons</p>
+      <p className="sauces">Wasabi and pickled ginger for garnish</p>
       <h1 className="sectionBorder" />
+
+      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2019/05/01/17/37/sauce-4171459_1280.jpg' />
 
       {/*Beverages*/}
       <h1 className="mainTitleBord">BEVERAGES</h1>
@@ -175,6 +197,8 @@ function Menu() {
       <p className="itemDesc">Almond Milk</p>
       <p className="itemDesc">Soy Milk</p>
       <p className="itemDesc">Coconut Milk</p>
+
+      <img className = 'imageTea' src = 'https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_1280.jpg' />
     </>
   );
 }
