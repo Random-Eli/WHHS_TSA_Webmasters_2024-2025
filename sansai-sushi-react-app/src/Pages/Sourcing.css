@@ -1,0 +1,60 @@
+/* matching font */
+@font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Okashi-Custom';
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid #808000;
+    border-radius: 20px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 3px;
+    position: relative;
+    float: bottom;
+    top: 10px;
+}
+
+p {
+    float: bottom;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.imageLeft {
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    left: 200px;
+    height: 240px;
+    width: 400px;
+}
+
+.imageRight {
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    position: relative;
+    float: right;
+    right: 200px;
+    height: 240px;
+    width: 400px;
+}
