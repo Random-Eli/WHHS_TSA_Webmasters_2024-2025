@@ -1,0 +1,19 @@
+
+
+
+  
+
+@font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  .text-center{
+    font-size: 2.5rem;
+    font-family:'Okashi-Custom'; 
+    
+  }
+ 
