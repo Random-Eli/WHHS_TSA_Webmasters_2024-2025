@@ -5,7 +5,6 @@ import "./Menu.css";
 function Menu() {
   return (
     <>
-    <div>
       {/*classic rolls*/}
       
       <h1 className="mainTitleBord">Classic Rolls</h1>
@@ -25,8 +24,8 @@ function Menu() {
         Steamed or fresh asparagus with rice and seaweed.
       </p>
 
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2018/08/03/08/33/food-3581341_960_720.jpg'/>   
-    </div>
+      <div class="cardClas" />
+      <img className = 'imageClas' src = 'https://cdn.pixabay.com/photo/2018/08/03/08/33/food-3581341_960_720.jpg' alt = "classic sushi roll"/>
     
     <div>
       {/*specialty rolls*/}
@@ -51,7 +50,8 @@ function Menu() {
       <h1 className="sectionBorder" />
     </div>
 
-    <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/10/30/18/35/sushi-5699481_1280.jpg'/>
+    <div className = 'cardSpec' />
+    <img className = 'imageSpec' src = 'https://cdn.pixabay.com/photo/2020/10/30/18/35/sushi-5699481_1280.jpg' alt = "Roasted potato sushi roll"/>
 
       {/*Creative Rolls */}
       <h1 className="mainTitleBord">Creative Rolls</h1>
@@ -75,7 +75,8 @@ function Menu() {
       </p>
       <h1 className="sectionBorder" />
 
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2017/07/26/11/48/sushi-2541472_1280.jpg' />
+      <div className = 'cardCrea' />
+      <img className = 'imageCrea' src = 'https://cdn.pixabay.com/photo/2017/07/26/11/48/sushi-2541472_1280.jpg' alt = "Sushi roll with sauce drizzle." />
 
       {/*Nigiri Options */}
       <h1 className="mainTitleBord">NIGIRI OPTIONS</h1>
@@ -91,8 +92,9 @@ function Menu() {
         Glazed mushrooms like king oyster or shiitake.
       </p>
       <h1 className="sectionBorder" />
-
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2014/10/16/17/23/sushi-491425_1280.jpg' />
+      
+      <div className = 'cardNig' />
+      <img className = 'imageNig' src = 'https://cdn.pixabay.com/photo/2014/10/16/17/23/sushi-491425_1280.jpg' alt = "Nigiri" />
 
       {/*Fusion Sushi */}
       <h1 className="mainTitleBord">FUSION SUSHI</h1>
@@ -112,7 +114,8 @@ function Menu() {
       </p>
       <h1 className="sectionBorder" />
 
-      <img className = 'image' src = 'https://img.freepik.com/free-photo/various-sushi-plate-table-detail_58702-667.jpg?t=st=1738190462~exp=1738194062~hmac=7d51a3a73841caa5dc69fb31b1def360e5c235dbe6eac73db7bde6ca0243ea0d&w=996' />
+      <div className = 'cardFus' />
+      <img className = 'imageFus' src = 'https://img.freepik.com/free-photo/various-sushi-plate-table-detail_58702-667.jpg?t=st=1738190462~exp=1738194062~hmac=7d51a3a73841caa5dc69fb31b1def360e5c235dbe6eac73db7bde6ca0243ea0d&w=996' alt = "Various sushi plate" />
 
       {/* Tempura */}
       <h1 className="mainTitleBord">TEMPURA</h1>
@@ -123,8 +126,6 @@ function Menu() {
         green beans coated in a light, crispy tempura batter.
       </p>
       <h1 className="sectionBorder" />
-
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/01/07/11/42/tempura-4747379_1280.jpg' />
 
       {/* Soups */}
       <h1 className="mainTitleBord">SOUPS</h1>
@@ -139,7 +140,8 @@ function Menu() {
       </p>
       <h1 className="sectionBorder" />
 
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2020/07/25/09/53/soup-5436253_1280.jpg' />
+      <div className = 'cardSoup' />
+      <img className = 'imageSoup' src = 'https://cdn.pixabay.com/photo/2020/07/25/09/53/soup-5436253_1280.jpg' alt = "Bowl of soup" />
 
       {/* Salads */}
       <h1 className="mainTitleBord">SALADS</h1>
@@ -159,8 +161,9 @@ function Menu() {
         dairy-free).
       </p>
       <h1 className="sectionBorder" />
-
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2022/02/05/14/06/cucumbers-6994963_1280.jpg' />
+      
+      <div className = 'cardSal' />
+      <img className = 'imageSal' src = 'https://cdn.pixabay.com/photo/2022/02/05/14/06/cucumbers-6994963_1280.jpg' alt = "Bowl of salad" />
 
       {/*Toppings and sauces*/}
       <h1 className="mainTitleBord">TOPPINGS & SAUCES</h1>
@@ -175,7 +178,8 @@ function Menu() {
       <p className="sauces">Wasabi and pickled ginger for garnish</p>
       <h1 className="sectionBorder" />
 
-      <img className = 'image' src = 'https://cdn.pixabay.com/photo/2019/05/01/17/37/sauce-4171459_1280.jpg' />
+      <div className = 'cardSauce' />
+      <img className = 'imageSauce' src = 'https://cdn.pixabay.com/photo/2019/05/01/17/37/sauce-4171459_1280.jpg' alt = "multiple sauces" />
 
       {/*Beverages*/}
       <h1 className="mainTitleBord">BEVERAGES</h1>
@@ -197,8 +201,10 @@ function Menu() {
       <p className="itemDesc">Almond Milk</p>
       <p className="itemDesc">Soy Milk</p>
       <p className="itemDesc">Coconut Milk</p>
+      
+      <div className = 'cardTea' />
+      <img className = 'imageTea' src = 'https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_1280.jpg' alt = "tea" />
 
-      <img className = 'imageTea' src = 'https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527_1280.jpg' />
     </>
   );
 }

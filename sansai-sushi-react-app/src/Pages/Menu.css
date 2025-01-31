@@ -36,21 +36,193 @@ body {
     margin: 0 auto;
 }
 
-.image {
-    position: relative;
-    bottom: 10px;
+.imageClas {
+    position: absolute;
+    bottom: 230px;
+    left: 100px;
     height: 256px;
     border: 1px solid #ffffff00;
     border-radius: 20px;
 }
 
-.imageTea {
-    position: relative;
-    bottom: 450px;
-    height: 256px;
-    right: 400px;
+.cardClas {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 276px;
+    width: 400px;
+    position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
+    bottom: 220px;
+    left: 92px;
+}
+
+.imageSpec {
+    position: absolute;
+    bottom: -175px;
+    right: 50px;
+    height: 256px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardSpec {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 276px;
+    width: 400px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -185px;
+    right: 43px;
+}
+
+.imageCrea {
+    position: absolute;
+    bottom: -565px;
+    left: 50px;
+    height: 256px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardCrea {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 276px;
+    width: 400px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -577px;
+    left: 43px;
+}
+
+.imageNig {
+    position: absolute;
+    bottom: -910px;
+    right: 100px;
+    height: 220px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardNig {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 240px;
+    width: 350px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -923px;
+    right: 90px;
+}
+
+.imageFus {
+    position: absolute;
+    bottom: -1230px;
+    left: 60px;
+    height: 200px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardFus {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 220px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -1240px;
+    left: 43px;
+}
+
+.imageSoup {
+   position: absolute;
+   bottom: -1670px; 
+   right: 100px;
+   height: 150px;
+   border: 1px solid #ffffff00;
+   border-radius: 20px;
+}
+
+.cardSoup {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 170px;
+    width: 250px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -1682px;
+    right: 85px;
+}
+
+.imageSal {
+    position: absolute;
+    bottom: -1998px; 
+    left: 100px;
+    height: 220px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardSal {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 240px;
+    width: 360px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -2010px;
+    left: 85px;
+}
+
+.imageSauce {
+    position: absolute;
+    bottom: -2348px; 
+    right: 100px;
+    height: 256px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardSauce {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 276px;
+    width: 400px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -2360px;
+    right: 93px;
+}
+
+.imageTea {
+    position: absolute;
+    bottom: -2890px;
+    height: 320px;
+    left: 100px;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+}
+
+.cardTea {
+    flex: 1 1 auto;
+    background-color: #808000;
+    height: 340px;
+    width: 490px;
+    position: absolute;
+    border: 1px solid #ffffff00;
+    border-radius: 20px;
+    bottom: -2900px;
+    left: 93px;
 }
 
 
