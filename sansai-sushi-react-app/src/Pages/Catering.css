@@ -1,7 +1,10 @@
 
-
-
-  
+.my-background {
+  background-image: url('../assets/Japanese Vector Background.svg'); 
+  background-size: cover; 
+  background-position: center;
+  height: 110vh; 
+}
 
 @font-face {
     font-family: 'Okashi-Custom';
@@ -16,4 +19,6 @@
     font-family:'Okashi-Custom'; 
     
   }
+
+ 
  

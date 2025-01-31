@@ -28,17 +28,23 @@ function Catering() {
 
     return (
         <div>
-            <div className="mt-5">
+             
+       
+            <div className="my-background">
+            
             {submitted && (
+                
                 <div className="d-flex justify-content-center">
                 <div className="alert alert-success" role="alert">
                     Submitted!
                 </div>
                 </div>
+               
             )}
 
-            
+
                 <div className="d-flex justify-content-center">
+                <div className="mt-5">
                     <div className="card text-bg-dark mb-3" style={{ maxWidth: '50rem' }}>
                         <div className="card-header">
                             <h1 className="text-center">CATERING</h1>
@@ -180,6 +186,8 @@ function Catering() {
                 </div >
             </div >
         </div>
+        </div>
+       
     );
 }
 
