@@ -12,6 +12,7 @@
     font-style: italic;
   }
 
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -19,42 +20,56 @@ body {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    border: 3px solid #808000;
-    border-radius: 20px;
-    width: 75%;
-    margin: 0 auto;
-    padding: 3px;
+/* Backgrounds will cover all the section */
+.section,
+.slide{
+    /* Important! Videos use absolute */
     position: relative;
-    float: bottom;
-    top: 10px;
+
+    background-size: cover;
+
+    /* Making sure videos won't overflow */
+    overflow: hidden;
 }
 
-p {
-    float: bottom;
-    position: relative;
-    top: 20px;
-    font-size: 20px;
-    padding: 30px;
+.overlay-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black; /* in case the video doesn't fit the whole page*/
+    /*background-image: /* our video */;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover; /*cover video background */
+    z-index: -100;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
-.imageLeft {
-    border: 1px solid #ffffff00;
-    border-radius: 20px;
-    position: relative;
-    float: left;
-    left: 200px;
-    height: 240px;
-    width: 400px;
+/* Layer with position absolute in order to have it over the video */
+#section0 .layer{
+    /*
+    * Preventing flicker on some browsers
+    * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+    */
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
-.imageRight {
-    border: 1px solid #ffffff00;
-    border-radius: 20px;
-    position: relative;
-    float: right;
-    right: 200px;
-    height: 240px;
-    width: 400px;
+#slide1{
+    background-image: url('../assets/Japanese Umbrellas.jpg') ;
+}
+
+#slide2{
+    background-image: url('../assets/Japanese Lantern.jpg')  ;
+}
+
+#section2{
+    background-image: url('../assets/Videos/Japanese Lanern 2.jpg') ;
 }

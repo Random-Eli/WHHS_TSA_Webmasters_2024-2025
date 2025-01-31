@@ -1,25 +1,75 @@
 import React from "react";
 import './Sourcing.css'
+import { useEffect } from 'react';
+import fullpage from 'fullpage.js';
+import 'fullpage.js/dist/fullpage.css';
 
-function Sourcing(){
+
+function Sourcing() {
+
+    useEffect(() => {
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+        });
+
+        console.log("FullPage.js initialized!");
+
+        return () => {
+            fullpage.destroy('all'); 
+            console.log("FullPage.js uninitialized!");
+        };
+    }, []);
+
     return (
-    <>
-        <h1>OUR SOURCING & SUSTAINABILITY PRACTICES</h1>
 
-        <p>
-            Here at Sansai Sushi, we are deeply committed to sustainable sourcing and farm-to-table practices, 
-            inspired by the pristine mountains of Japan. We work closely with local farmers and artisans who share our 
-            passion for organic, eco-friendly methods. Our ingredients—ranging from fresh vegetables and seaweed to 
-            rice—are all sourced from small-scale, environmentally conscious farms nestled in Japan’s mountainous regions,
-            where traditional, sustainable farming practices are still honored. We take great care to minimize food waste
-            by composting all organic scraps and using biodegradable packaging for takeout. Every dish we serve reflects
-            our dedication to the planet and local communities, allowing us to share the rich flavors of Japan’s culinary
-            traditions while supporting a more sustainable future.
-        </p>
+        <div id="fullpage">
 
-        <img className = 'imageLeft' src = 'https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg' />
-        <img className = 'imageRight'  src = 'https://cdn.pixabay.com/photo/2017/06/10/05/26/rice-terraces-2389023_1280.jpg' />
-    </>
-    )
+            <div class="section" id="section0">
+        
+                <video class="overlay-video" loop muted="true" playsinline data-autoplay>
+                    <source src='../assets/Videos/vid - Sustainability Slide 1.mp4' type="video/mp4"></source>
+                </video>
+
+                <div class="layer">
+                    <h1>“Sansai (山菜): The Wild, Fresh Heart of Our Vegan Sushi”</h1>
+                </div>
+
+            </div>
+
+            <div class="section" id="section1">
+
+                <div class="slide" id="slide1">
+            
+                    <div class="layer">
+                        <h1>The Essence of Japanese Culture</h1>
+                    </div>
+
+                </div>
+
+                <div class="slide" id="slide2">
+                    
+                    <div class="layer">
+                        <h1>"Mottainai (もったいない): The Art of Avoiding Waste"</h1>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="section" id="section2">
+
+                <div class="layer">
+                    <h1>Award Winning</h1>
+                </div>
+
+            </div>
+
+
+        </div>
+    );
+
 }
+
 export default Sourcing
