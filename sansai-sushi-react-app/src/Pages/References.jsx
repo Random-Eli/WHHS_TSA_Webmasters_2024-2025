@@ -1,9 +1,5 @@
 import React from "react";
 import "./References.css";
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 function References() {
   return (
     <div className="references-page">
@@ -298,5 +294,4 @@ function References() {
       </div>
     </div>
   );
-}
 export default References;
