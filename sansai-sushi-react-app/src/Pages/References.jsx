@@ -51,7 +51,7 @@ function References() {
             <div id="collapsePDF" className="accordion-collapse collapse show">
               <div className="accordion-body">
                 <a
-                  href="/Student Copyright Checklist.pdf"
+                  href="/Webmasters Work Log.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
