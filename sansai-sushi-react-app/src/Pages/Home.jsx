@@ -1,6 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import fullpage from 'fullpage.js';
-import 'fullpage.js/dist/fullpage.css';
 import Photo1 from '../assets/SansaiOutside.jpg';
 import Photo2 from '../assets/SansaiInterior.jpg';
 import Photo3 from '../assets/GuyWithSushi.jpg';
