@@ -1,75 +1,82 @@
 /* matching font */
 @font-face {
-    font-family: 'Okashi-Custom';
-    src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'Okashi-Custom';
-    src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-  }
-
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
 
 body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Okashi-Custom';
-    text-align: center;
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: 'Okashi-Custom', sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-/* Backgrounds will cover all the section */
-.section,
-.slide{
-    /* Important! Videos use absolute */
-    position: relative;
-
-    background-size: cover;
-
-    /* Making sure videos won't overflow */
-    overflow: hidden;
+.swiper {
+  width: 100%;
+  height: 100vh;
+  background: #000;
 }
 
-.overlay-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top:0;
-    right:0;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%;
-    background-color: black; /* in case the video doesn't fit the whole page*/
-    /*background-image: /* our video */;
-    background-position: center center;
-    background-size: cover;
-    object-fit: cover; /*cover video background */
-    z-index: -100;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  color: #ebe6e3;
+  box-sizing: border-box;
+  padding: 60px;
+  height: 100%;
 }
 
-/* Layer with position absolute in order to have it over the video */
-#section0 .layer{
-    /*
-    * Preventing flicker on some browsers
-    * See http://stackoverflow.com/a/36671466/1081396  or issue #183
-    */
-    -webkit-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
 }
 
-#slide1{
-    background-image: url('../assets/Japanese Umbrellas.jpg') ;
+.swiper-slide .title {
+  font-size: 120px;
+  font-weight: bold;
+  max-width: 90%;
 }
 
-#slide2{
-    background-image: url('../assets/Japanese Lantern.jpg')  ;
+.swiper-slide .subtitle {
+  font-size: 32px;
+  max-width: 80%;
 }
 
-#section2{
-    background-image: url('../assets/Videos/Japanese Lanern 2.jpg') ;
+.swiper-slide .text {
+  font-size: 28px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.text ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0 auto; /* Center the list */
+  display: inline-block; /* Helps with centering */
+  text-align: left; /* Keep text aligned properly inside the list */
 }
