@@ -1,5 +1,9 @@
 import React from "react";
 import "./References.css";
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 function References() {
   return (
     <div className="references-page">
