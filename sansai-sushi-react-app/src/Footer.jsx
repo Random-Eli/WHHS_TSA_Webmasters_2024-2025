@@ -20,19 +20,19 @@ const Footer=()=>{
                     </div>
                     <div className = "sb__footer-links_div">
                         <h4>Quick Links!</h4>
-                        <a href="/resource">
+                        <a href="/">
                             <p>Home</p>
                         </a>
-                        <a href="/resource">
+                        <a href="/Menu">
                             <p>Menu</p>
                         </a>
-                        <a href="/resource">
+                        <a href="/Catering">
                             <p>Catering</p>
                         </a>
-                        <a href="/resource">
+                        <a href="/Sourcing">
                             <p>Sourcing</p>
                         </a>
-                        <a href="/resource">
+                        <a href="/References">
                             <p>References</p>
                         </a>
                     </div>

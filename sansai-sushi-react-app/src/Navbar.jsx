@@ -8,7 +8,7 @@ function Navbar() {
         <a className="navbar-brand" href="#">
           <img
             className="navbar-logo"
-            src="../public/Sansai Sushi Logo.svg"
+            src="/Sansai Sushi Logo.svg"
             alt="Sansai Sushi"
             width="50"
             height="24"

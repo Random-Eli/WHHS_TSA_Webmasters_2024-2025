@@ -61,8 +61,8 @@ function Home() {
 
                 </div>
                 <div className="paddingtop"></div>
-                <div class="container text-center ">
-                    <div class="row">
+                <div className="container text-center ">
+                    <div className="row">
                         <div className="col-sm-6 col-md-5 col-lg-6">
                         <div className="paddingbottom"></div>
                         <h2 className="header text-center"> 
