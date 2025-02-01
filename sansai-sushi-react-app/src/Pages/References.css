@@ -1,0 +1,90 @@
+/* matching font with navbar */
+
+@font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+
+body {
+    background-color: #131313;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Okashi-Custom';
+}
+
+.mainTitle {
+    color: #ffffff;
+}
+
+.itemName {
+    color: #c9ab00;
+}
+
+.mainTitleBord {
+    color: #ffffff;
+    border: 3px solid #808000;
+    border-radius: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+.references-page {
+    background-color: #000000;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .references-accordion .accordion-button {
+    background-color: #a84848 !important; /* light red from logo*/
+    color: #f5f5f5 !important; /* pastel white */
+    border: 1px solid #a84848 !important;
+  }
+  
+  .references-accordion .accordion-button:not(.collapsed) {
+    background-color: #c06060 !important; /* brighre red for button */
+    color: #ffffff !important; 
+  }
+  
+  .references-accordion .accordion-body {
+    background-color: #1A1A1A !important; 
+    color: #f5f5f5 !important; 
+    border: 1px solid #a84848 !important;
+  }
+  
+  .references-accordion .accordion-item {
+    border: 1px solid #a84848 !important; 
+    margin-bottom: 1rem;
+  }
+  
+  .references-page .btn-primary {
+    background-color: #a84848;
+    border-color: #a84848;
+    color: #f5f5f5; 
+  }
+  
+  .references-page .btn-primary:hover {
+    background-color: #c06060; 
+    border-color: #a84848;
+    color: #ffffff; 
+  }
+  
+  .references-page a {
+    color: #f5f5f5 !important; 
+  }
+  
+  .references-page a:hover {
+    color: #ffffff !important; 
+    text-decoration: underline;
+  }
+  
