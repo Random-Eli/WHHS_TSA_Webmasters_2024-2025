@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Okashi-Custom';
+    src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background: #eee;
+    font-family: 'Okashi-Custom';
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .headerMain{
+    font-family: 'Okashi-Custom';
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .header{
+    font-family: 'Okashi-Custom';
+    font-size: 50px;
+    text-align: center;
+  }
+  .swiper {
+    width: 100%;
+    height: 40%;
+  }
+  
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paddingtop {
+    padding-top: 400px;  
+  }
+  .paddingtop1 {
+    padding-top: 150px;  
+  }
+  .paddingbottom{
+    padding-bottom: 250px;  
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .backgroundImage{
+    background-color: #222124;
+    background-image: url(..\assets\darkBack.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+
+ 
