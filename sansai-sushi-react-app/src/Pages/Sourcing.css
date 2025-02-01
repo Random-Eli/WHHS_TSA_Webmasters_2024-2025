@@ -1,0 +1,82 @@
+/* matching font */
+@font-face {
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Okashi-Custom';
+  src: url('./assets/fonts/okashi-cufonfonts/Okashi-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: 'Okashi-Custom', sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  color: #ebe6e3;
+  box-sizing: border-box;
+  padding: 60px;
+  height: 100%;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.swiper-slide .title {
+  font-size: 120px;
+  font-weight: bold;
+  max-width: 90%;
+}
+
+.swiper-slide .subtitle {
+  font-size: 32px;
+  max-width: 80%;
+}
+
+.swiper-slide .text {
+  font-size: 28px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.text ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0 auto; /* Center the list */
+  display: inline-block; /* Helps with centering */
+  text-align: left; /* Keep text aligned properly inside the list */
+}
