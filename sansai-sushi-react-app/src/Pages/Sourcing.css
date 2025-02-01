@@ -15,7 +15,7 @@
 body {
   position: relative;
   height: 100%;
-  background: #eee;
+  background: #eeeeee00;
   font-family: 'Okashi-Custom', sans-serif;
   font-size: 16px;
   color: #000;
@@ -26,7 +26,7 @@ body {
 .swiper {
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #dfdada;
 }
 
 .swiper-slide {
@@ -79,4 +79,12 @@ body {
   margin: 0 auto; /* Center the list */
   display: inline-block; /* Helps with centering */
   text-align: left; /* Keep text aligned properly inside the list */
+}
+
+.swiper-slide {
+  background: transparent !important;
+}
+
+.parallax-bg {
+  z-index: -1; /* Pushes it to the background */
 }

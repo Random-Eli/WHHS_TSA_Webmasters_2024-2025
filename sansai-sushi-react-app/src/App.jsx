@@ -26,7 +26,7 @@ function App() {
         <Route path = "/Catering" element={<Catering />}/>
         <Route path = "/References" element={<References />}/>
       </Routes>
-      < Footer / >
+      < Footer/>
     </div>
   
   );
