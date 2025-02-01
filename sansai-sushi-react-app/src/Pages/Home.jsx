@@ -11,13 +11,14 @@ import Photo9 from '../assets/Mountains.jpg';
 
 
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import './Home.css';
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Pagination, Autoplay  } from 'swiper/modules';
 
 function Home() {
     return (
@@ -37,10 +38,14 @@ function Home() {
                         slidesPerView={3}
                         spaceBetween={30}
                         freeMode={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                          }}
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[FreeMode, Pagination]}
+                        modules={[FreeMode, Pagination, Autoplay]}
                         className="mySwiper"
                     >
 
