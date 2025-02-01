@@ -2,14 +2,17 @@
 import React from "react";
 import "./Menu.css";
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
 function Menu() {
   return (
     <>
-      {/*classic rolls*/}
-      
+    <div className = "container-fluid">
+      {/*classic rolls*/}  
       <h1 className="mainTitleBord">Classic Rolls</h1>
       <h1 className="mainTitle">クラシックロール</h1>
-      <h5 className="itemName">Avocado Roll</h5>
+      <h5 className="itemName">Avocado Roll</h5> 
       <p className="itemDesc">
         Simple and creamy avocado pieces wrapped in sushi rice and seaweed.
       </p>
@@ -23,9 +26,11 @@ function Menu() {
       <p className="itemDesc">
         Steamed or fresh asparagus with rice and seaweed.
       </p>
+      </div>
 
       <div class="cardClas" />
       <img className = 'imageClas' src = 'https://cdn.pixabay.com/photo/2018/08/03/08/33/food-3581341_960_720.jpg' alt = "classic sushi roll"/>
+
     
     <div>
       {/*specialty rolls*/}

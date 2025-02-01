@@ -14,14 +14,10 @@
 
 /* sets background color, text color, and aligns text */
 body {
-    background-color: #131313;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
     font-family: 'Okashi-Custom';
-}
-
-.mainTitle {
-    color: #ffffff;
 }
 
 .itemName {
@@ -33,12 +29,12 @@ body {
     border: 3px solid #808000;
     border-radius: 20px;
     width: 75%;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .imageClas {
     position: absolute;
-    bottom: 230px;
+    bottom: 200px;
     left: 100px;
     height: 256px;
     border: 1px solid #ffffff00;
@@ -53,13 +49,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: 220px;
+    bottom: 190px;
     left: 92px;
 }
 
 .imageSpec {
     position: absolute;
-    bottom: -175px;
+    bottom: -195px;
     right: 50px;
     height: 256px;
     border: 1px solid #ffffff00;
@@ -74,13 +70,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -185px;
+    bottom: -205px;
     right: 43px;
 }
 
 .imageCrea {
     position: absolute;
-    bottom: -565px;
+    bottom: -605px;
     left: 50px;
     height: 256px;
     border: 1px solid #ffffff00;
@@ -95,13 +91,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -577px;
+    bottom: -615px;
     left: 43px;
 }
 
 .imageNig {
     position: absolute;
-    bottom: -910px;
+    bottom: -945px;
     right: 100px;
     height: 220px;
     border: 1px solid #ffffff00;
@@ -116,13 +112,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -923px;
+    bottom: -955px;
     right: 90px;
 }
 
 .imageFus {
     position: absolute;
-    bottom: -1230px;
+    bottom: -1266px;
     left: 60px;
     height: 200px;
     border: 1px solid #ffffff00;
@@ -137,13 +133,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -1240px;
+    bottom: -1277px;
     left: 43px;
 }
 
 .imageSoup {
    position: absolute;
-   bottom: -1670px; 
+   bottom: -1720px; 
    right: 100px;
    height: 150px;
    border: 1px solid #ffffff00;
@@ -158,13 +154,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -1682px;
+    bottom: -1730px;
     right: 85px;
 }
 
 .imageSal {
     position: absolute;
-    bottom: -1998px; 
+    bottom: -2045px; 
     left: 100px;
     height: 220px;
     border: 1px solid #ffffff00;
@@ -179,13 +175,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -2010px;
+    bottom: -2055px;
     left: 85px;
 }
 
 .imageSauce {
     position: absolute;
-    bottom: -2348px; 
+    bottom: -2400px; 
     right: 100px;
     height: 256px;
     border: 1px solid #ffffff00;
@@ -200,13 +196,13 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -2360px;
+    bottom: -2410px;
     right: 93px;
 }
 
 .imageTea {
     position: absolute;
-    bottom: -2890px;
+    bottom: -2960px;
     height: 320px;
     left: 100px;
     border: 1px solid #ffffff00;
@@ -221,7 +217,7 @@ body {
     position: absolute;
     border: 1px solid #ffffff00;
     border-radius: 20px;
-    bottom: -2900px;
+    bottom: -2970px;
     left: 93px;
 }
 
