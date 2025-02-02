@@ -17,7 +17,6 @@ body {
   height: 100%;
   background: #eeeeee00;
   font-family: 'Okashi-Custom', sans-serif;
-  font-size: 16px;
   color: #000;
   margin: 0;
   padding: 0;
@@ -35,7 +34,6 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 22px;
   color: #ebe6e3;
   box-sizing: border-box;
   padding: 60px;
@@ -57,28 +55,27 @@ body {
 }
 
 .swiper-slide .title {
-  font-size: 120px;
   font-weight: bold;
   max-width: 90%;
 }
 
 .swiper-slide .subtitle {
-  font-size: 32px;
+  font-size: 1.5vw;
   max-width: 80%;
 }
 
 .swiper-slide .text {
-  font-size: 28px;
+  font-size: 1.5vw;
   max-width: 800px;
   line-height: 1.5;
 }
 
 .text ul {
-  list-style: none; /* Remove default bullet points */
+  list-style: none; 
   padding: 0;
-  margin: 0 auto; /* Center the list */
-  display: inline-block; /* Helps with centering */
-  text-align: left; /* Keep text aligned properly inside the list */
+  margin: 0 auto; 
+  display: inline-block;
+  text-align: left; 
 }
 
 .swiper-slide {
@@ -86,5 +83,5 @@ body {
 }
 
 .parallax-bg {
-  z-index: -1; /* Pushes it to the background */
+  z-index: -1;
 }
